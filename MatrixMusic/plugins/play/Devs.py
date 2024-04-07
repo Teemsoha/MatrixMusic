@@ -33,7 +33,7 @@ def get_file_id(msg: Message):
                 return obj
 
 @app.on_message(
-    command(["المطور","اسحاق","اليسع","مطور السورس","مبرمج السورس"])
+    command(["مطور","اسحاق","اليسع","مطور السورس","مبرمج السورس"])
     & filters.group
   
 )
@@ -53,7 +53,7 @@ async def yas(client, message):
     )
     
 @app.on_message(
-    command(["لبيه"])
+    command(["عيب"])
     & filters.group
   
 )

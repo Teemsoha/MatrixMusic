@@ -42,7 +42,7 @@ async def zdatsr(client: Client, message: Message):
     )
 
 
-@app.on_message(command(["مطور", "المطور"]) & filters.group)
+@app.on_message(command(["مطور", "المبرمج"]) & filters.group)
 async def zilzal(client: Client, message: Message):
     usr = await client.get_users(OWNER_ID)
     name = usr.first_name
